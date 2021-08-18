@@ -1,6 +1,4 @@
-import { mainLetterBody } from "./LetterBody.js";
-
-
+import { mainLetterBody } from "./mainBody.js";
 
 
 

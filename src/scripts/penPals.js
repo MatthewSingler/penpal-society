@@ -1,16 +1,18 @@
 import { getPenPals, getSentLetters, getTopics } from "./dataAccess.js";
 
-export const allAuthorsInListForm = (penPalAuthor) => {
-   const sentLetters = getSentLetters()
-    for (const author of sentLetters) {
-        if (penPal.id === author.authorId) {
-            penPalAuthor = author
-            return `<li>${penPal.name} id="author--${penPal.id}"></li>`
+export const allAuthors = (penPal) => {
+    const authors = sentLetters.map(authorId => {
+        return `<li>${sentLetters.authorId}</li>`
+    })
+        for (const author of authors) {
+            if (sentLetters.authorId === penPal.id) {
+                return author
+            }
+            
         }
+    
     }
-
-    allAuthorsInListForm()
-}
+    allAuthors()
 
 export const PenPals = () => {
     const penPals = getPenPals()
