@@ -1,6 +1,35 @@
 {
-    "penPals": [],
+    "penPals": [
+        {
+            id: 1,
+            name: "Matthew",
+            email: "matthew@matthew.com"
+        },
+        {
+            id: 2,
+            name: "Zachary"
+            email: "zachary@zachary.com"
+        },
+        {
+            id: 3,
+            name: "Annie"
+            email: "annie@annie.com"
+        }
+    ],
     "sentLetters": [],
-    "topics": []
-    
+    "topics": [
+        {
+            id: 1,
+            name: "Checking In"
+        },
+        {
+            id: 2,
+            name: "Important"
+        },
+        {
+            id: 3,
+            name: "Personal Matter"
+        }
+    ]
+
 }

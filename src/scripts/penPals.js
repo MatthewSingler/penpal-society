@@ -1,5 +1,6 @@
 import { getPenPals, getSentLetters, getTopics } from "./dataAccess.js";
 
+//trying to iterate through sentLetters to get the author id and then match the author id to penPal id in order to say who the author is.
 export const allAuthors = (penPal) => {
     const authors = sentLetters.map(authorId => {
         return `<li>${sentLetters.authorId}</li>`
@@ -13,7 +14,7 @@ export const allAuthors = (penPal) => {
     
     }
     allAuthors()
-
+//experimenting with another way to do the same thing
 export const PenPals = () => {
     const penPals = getPenPals()
     
