@@ -1,0 +1,1 @@
+Creating a gmail type dite that will allow user to choose the author, recipient, topic, compose a letter body, and send the letter. Sent letters will be displayed at the bottom.
